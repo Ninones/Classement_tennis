@@ -1,0 +1,102 @@
+{% extends 'cadre.html' %}
+
+{% block header %}
+ <h1 id="haut">Classement mondial messieurs tennis</h1>
+        <!--Retour à la pagé d'accueil-->
+        <a href="Accueil.html">Retour à l'accueil</a>
+        <!--Formulaire-->
+        <form action="/date" id="recherche" method="post">
+            <input type="text" id="demande" name="recherche" placeholder="Saisir un pays">
+            <input type="submit" id="envoiRecherche" value="Lancer la recherche">
+        </form>
+{% endblock %}
+
+{ % block section %}
+<table>
+            <caption><h2>Classement</h2></caption>
+            <tbody>
+                <tr>
+                    <td><li><img src="images/Hommes/Djokovic.png" alt="Novak Djokovic "></li></td>
+                    <td><li id="or"> N°1 - Novak Djokovic - Serbie</li></td>
+                </tr>
+                <tr>
+                    <td><li> <img src="images/Hommes/Medvedev.png" alt="Daniil Medvedev"></li></td>
+                    <td><li id="argent"> N°2 - Daniil Medvedev - Russie</li></td>
+                </tr>
+                <tr>
+                    <td><li> <img src="images/Hommes/Nadal.png" alt="Rafael Nadal"></li></td>
+                    <td><li id="bronze"> N°3 - Rafael Nadal - Espagne</li></td>
+                </tr>
+                <tr>
+                    <td><li> <img src="images/Hommes/Zverev.png" alt="Alexander Zverev"></li></td>
+                    <td><li> N°4 - 	Alexander Zverev - Allemagne</li></td>
+                </tr>
+                <tr>
+                    <td><li> <img src="images/Hommes/Tsitsipas.png" alt="Stefanos Tsitsipas"></li></td>
+                    <td> <li> N°5 - 	Stefanos Tsitsipas - Grèce</li></td>
+                </tr>
+                <tr>
+                    <td><li> <img src="images/Hommes/Berrettini.png" alt="Matteo Berrettini"></li></td>
+                    <td><li> N°6 - 	Matteo Berrettini - Italie</li></td>
+                </tr>
+                <tr>
+                    <td><li> <img src="images/Hommes/Rublev.png" alt="Andrey Rublev"></li></td>
+                    <td><li> N°7 - Andrey Rublev - Russie</li></td>
+                </tr>
+                <tr>
+                    <td><li><img src="images/Hommes/Ruud.png" alt="Casper Ruud-"></li></td>
+                    <td><li> N°8 - Casper Ruud- Norvège</li></td>
+                </tr>
+                <tr>
+                    <td><li> <img src="images/Hommes/Auger-Aliassime.png" alt=" Félix Auger-Aliassime "></li></td>
+                    <td><li> N°9 - Félix Auger-Aliassime - Canada</li></td>
+                </tr>
+                <tr>
+                    <td><li> <img src="images/Hommes/Hurkacz.png" alt="Hubert Hurkacz "></li></td>
+                    <td><li> N°10 - Hubert Hurkacz - Pologne</li></td>
+                </tr>
+                <tr>
+                    <td><li> <img src="images/Hommes/Sinner.png" alt="Jannik Sinnerz"></li></td>
+                    <td><li> N°11 - Jannik Sinnerz - Italie</li></td>
+                </tr>
+                <tr>
+                    <td><li> <img src="images/Hommes/Norrie.png" alt=" Cameron Norrie"></li></td>
+                    <td><li> N°12 - Cameron Norrie - Grande-Bretagne</li></td>
+                </tr>
+                <tr>
+                    <td><li> <img src="images/Hommes/Fritz.png" alt="Taylor Fritz"></li></td>
+                    <td><li> N°13 - Taylor Fritz - Etats-Unis</li></td>
+                </tr>
+                <tr>
+                    <td><li> <img src="images/Hommes/Shapovalov.png" alt="Denis Shapovalov"></li></td>
+                    <td><li> N°14 - Denis Shapovalov - Canada</li></td>
+                </tr>
+                <tr>
+                    <td><li> <img src="images/Hommes/Schwartzman.png" alt="Diego Schwartzma"></li></td>
+                    <td><li> N°15 - Diego Schwartzman - Argentine</li></td>
+                </tr>
+                <tr>
+                    <td><li> <img src="images/Hommes/Alcaraz.png" alt="Carlos Alcaraz"></li></td>
+                    <td> <li> N°16 - Carlos Alcaraz - Espagne</li></td>
+                </tr>
+                <tr>
+                    <td><li> <img src="images/Hommes/Bautista-Agut.png" alt="Roberto Bautista Agut"></li></td>
+                    <td><li> N°17 - Roberto Bautista Agut - Espagne</li></td>
+                </tr>
+                <tr>
+                    <td><li> <img src="images/Hommes/Opelka.png" alt="Reilly Opelka"></li></td>
+                    <td> <li> N°18 - Reilly Opelka - Etats-Unis</li></td>
+                </tr>
+                <tr>
+                    <td><li> <img src="images/Hommes/Carreno-Busta.png" alt="Pablo Carreno Busta"></li></td>
+                    <td><li> N°19 - Pablo Carreno Busta - Espagne</li></td>
+                </tr>
+                <tr>
+                    <td><li> <img src="images/Hommes/Basilashvili.png" alt="Nikoloz Basilashvili"></li></td>
+                    <td><li> N°20 -	Nikoloz Basilashvili- Géorgie</li></td>
+                </tr>
+
+            </tbody>
+            </table>
+            <a id="lien" href="#haut">Retour en haut de page</a>
+{% endblock %}

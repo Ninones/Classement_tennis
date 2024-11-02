@@ -1,0 +1,25 @@
+{% extends 'cadre.html' %}
+
+
+{% block header %}
+	<h1>Classement mondial messieurs/dames tennis</h1>
+		<nav> 
+			<ul>
+				<li id="messieurs"> 
+					<a href="Messieurs.html">Messieurs</a>
+				</li>
+				<li id="dames">
+					<a href="Dames.html"> Dames</a>
+				</li>
+			</ul>
+		</nav>
+{% endblock %}
+
+{ % block section %}
+	<h2> Accueil</h2>
+		<figure>
+			<img src="images/terrain.png" alt="terrain de tennis Roland Garros" width="1000"
+			height="400">
+			<figcaption>Tennis de tennis Roland Garros</figcaption>
+		</figure>
+{% endblock %}
