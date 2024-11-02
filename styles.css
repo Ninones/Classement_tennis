@@ -1,0 +1,114 @@
+body {
+    display : grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 7% 85% 5%;
+    width : 80%;
+    margin-left: 10%;
+}
+
+header {
+    grid-column: 1;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 30% 40% 20%;
+    grid-template-rows: 55% 20%;
+}
+
+header h1{
+    grid-column: 1/span 3;
+    grid-row: 1;
+    text-align: center;
+    background-color: yellow;
+}
+
+header a {
+    grid-column: 3;
+    grid-row: 1;
+    text-decoration: none;
+}
+
+header form {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+header a {
+    color: green;
+}
+
+header a:hover {
+    color :orange;
+}
+div {
+    grid-column: 3;
+    grid-row: 2;
+}
+table {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+table, tr, td {
+    border: 1px solid white;
+}
+  
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+section h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+section table {
+    list-style: none;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+#or {
+    color : #FFD700;
+}
+
+#argent {
+    color : #C0C0C0;
+}
+
+#bronze {
+    color : #cd7f32;
+}
+
+#lien {
+    color: crimson;
+}
+
+
+img {
+    width: 150px;
+}
+
+aside {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+aside h3{
+    text-decoration: underline;
+}
+
+aside a:hover {
+    text-decoration: none;
+    color :orange;
+}
+
+aside a {
+    color : black;
+}
+
+footer {
+    grid-row: 3;
+    grid-column: 1/span 2;
+}
